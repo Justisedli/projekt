@@ -163,5 +163,5 @@ footer {
 
 .services__photo {
   width: 100%;
-  height: auto;
+  max-height: 250px;
 }/*# sourceMappingURL=style.css.map */
