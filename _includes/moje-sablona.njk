@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hair by Markéta</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oooh+Baby&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+   <section class="hlavicka" >
+<header class="header ">
+        <img src="/images/logo (kopie).webp" height="100px">
+		<h1 class="header__logo">Hair by Markéta</h1>
+	</header>
+	<nav class="menu">
+		<ul class="menu__list">
+			<li class="menu__item"><a href="/index/" class="menu__link">O nás</a></li>
+			<li class="menu__item"><a href="/sluzby/" class="menu__link">Služby</a></li>
+			<li class="menu__item"><a href="/cenik/" class="menu__link">Ceník</a></li>
+            <li class="menu__item"><a href="/promeny/" class="menu__link">Proměny</a></li>
+            <li class="menu__item"><a href="/kontakt/" class="menu__link">Kontakt</a></li>
+		</ul>
+	</nav> </section>
+
+	<main class="main">
+{{ content | safe }}
+
+    
+	</main>
+
+
+	<footer class="footer">
+		Hair by Markéta
+	</footer>
+
+</body>
+</html>

@@ -1,0 +1,164 @@
+$fialka: #CBC0D4;
+$ruzovka: #EFD3D7;
+$modrovka: #DEE2FF;
+$sedovka:#8E9AAF;
+$cernovka: #000000;
+
+$odstup: 30px;
+
+html {
+    box-sizing: border-box;
+  }
+  
+  *, ::before, ::after {
+    box-sizing: inherit;
+  }
+  body {
+    font-family: 'Lora', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .hlavicka{display:flex;
+justify-content: space-between;
+align-items: center;}
+  h1{font-family: "Oooh Baby", cursive;
+    font-weight: 400;
+    font-style: normal;
+font-size: 20px;}
+  .header {
+    background-color: white;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+  }
+  
+  .header__logo {
+    margin: 0;
+    font-size: 3em;
+    text-align: center;
+    color: $fialka;
+  }
+  
+  .menu {
+    background-color: white;
+  }
+  
+  .menu__list {
+    margin: 0;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-transform: uppercase;
+  }
+  
+  .menu__item:not(:last-child) {
+    border-right: 2px solid $sedovka;
+  }
+  
+  .menu__link {
+    display: block;
+    padding: 15px 30px;
+    color: $sedovka;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .menu__link:hover, .menu__link:focus {
+    background-color: $fialka;
+    color: black;
+  
+  }
+
+footer{ background-color: $fialka;
+text-align: center;}
+
+
+.onas{display: flex;
+     justify-content: space-around;
+    margin-bottom: $odstup;}
+.onas__img{height: 466px;}
+.text{max-width: 553px;}
+
+
+
+.price-list {
+    width: 100%;
+    max-width: 600px; 
+    margin: 0 auto;
+    background-color: #fff; 
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    margin-bottom: $odstup;
+}
+
+.price-list__title {
+    text-align: center; 
+    margin-bottom: 20px; 
+    font-family: Lora;
+    text-transform: uppercase;
+}
+
+.price-list__items {
+    list-style: none; 
+    padding: 0; 
+}
+
+.price-list__item {
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: 10px; 
+}
+
+.price-list__service, .price-list__cost {
+    display: block; 
+}
+
+
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.services__content {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.services__title {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.services__subtitle {
+    color: #555;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.services__description {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.services__image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+.services__photo {
+    width: 100%;
+    height: auto;
+}
+
